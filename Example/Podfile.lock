@@ -1,0 +1,16 @@
+PODS:
+  - SwiftEgg (0.1.0)
+
+DEPENDENCIES:
+  - SwiftEgg (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftEgg:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftEgg: fcf6283993724bf84bdaaaa04fdc1b29662acb20
+
+PODFILE CHECKSUM: a0a229f0f1a325888d4cdb51387a180ab8219593
+
+COCOAPODS: 1.11.2

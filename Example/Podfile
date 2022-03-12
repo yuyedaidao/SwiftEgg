@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitee.com/padding/YQPods.git'
+
+use_frameworks!
+platform :ios, '10.0'
+
+target 'SwiftEgg_Example' do
+  pod 'SwiftEgg', :path => '../'
+
+  #pod 'Moya/RxSwift'
+  #pod 'SnapKit'
+  #pod 'RxDataSources'
+
+  target 'SwiftEgg_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
