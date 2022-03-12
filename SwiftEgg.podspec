@@ -17,22 +17,22 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'SwiftEgg'
+  s.description      = 'SwiftEgg Swift Error struct'
 
-  s.homepage         = 'https://gitee.com/iqilu/SwiftEgg'
+  s.homepage         = 'https://github.com/yuyedaidao/SwiftEgg'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WYQ' => 'wyqpadding@gmail.com' }
-  s.source           = { :git => 'https://gitee.com/iqilu/SwiftEgg.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yuyedaidao/SwiftEgg.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
   s.source_files = 'SwiftEgg/Classes/**/*'
   
-  s.resource_bundles = {
-    'SwiftEgg' => ['SwiftEgg/Assets/*']
-  }
+#  s.resource_bundles = {
+#    'SwiftEgg' => ['SwiftEgg/Assets/*']
+#  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 

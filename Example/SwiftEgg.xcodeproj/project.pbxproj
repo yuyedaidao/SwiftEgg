@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1CDD3792A283C4E57DFC79A4 /* Pods_SwiftEgg_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftEgg_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2568AEE250C3089BD998189B /* Pods-SwiftEgg_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEgg_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftEgg_Tests/Pods-SwiftEgg_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2ABFDB205198CB833CBBD27F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2ABFDB205198CB833CBBD27F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2DE61EB0BC955F13B734BB72 /* Pods-SwiftEgg_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEgg_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwiftEgg_Example/Pods-SwiftEgg_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4883478C50FFA8DD1F1E31C3 /* Pods-SwiftEgg_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEgg_Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftEgg_Example/Pods-SwiftEgg_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftEgg_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEgg_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B518B11ECF602DD17A62582 /* Pods-SwiftEgg_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEgg_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwiftEgg_Tests/Pods-SwiftEgg_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D907A5BA8AA99A6BFE0EDD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CD680ADD1BAA94A0365874F9 /* SwiftEgg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftEgg.podspec; path = ../SwiftEgg.podspec; sourceTree = "<group>"; };
+		9D907A5BA8AA99A6BFE0EDD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD680ADD1BAA94A0365874F9 /* SwiftEgg.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftEgg.podspec; path = ../SwiftEgg.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5843CF0F00A4A1384499A5F /* Pods_SwiftEgg_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftEgg_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				2568AEE250C3089BD998189B /* Pods-SwiftEgg_Tests.debug.xcconfig */,
 				7B518B11ECF602DD17A62582 /* Pods-SwiftEgg_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QXPHWM9EW2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QXPHWM9EW2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
