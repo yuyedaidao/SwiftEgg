@@ -20,12 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SwiftEgg",
-            dependencies: [],
-        ),
-        .testTarget(
-            name: "SwiftEggTests",
-            dependencies: ["SwiftEgg"])
+            name: "SwiftEgg"),
     ],
     swiftLanguageVersions: [.v5]
 )
