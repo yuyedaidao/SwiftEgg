@@ -24,6 +24,6 @@ let package = Package(
         .testTarget(
             name: "SwiftEggTests",
             dependencies: ["SwiftEgg"])
-    ]
-            
+    ],
+    swiftLanguageVersions: [.v5]
 )
